@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BVRIT</title>
+
+<link href="intranetcss/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="intranetcss/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body style="background-color: silver; font-style: inherit;">
+
+
+<table align="center"  width="500" >
+<tr valign=top>
+<td style="border:none"><img src="images/clg.png" width="600" height="95"></td>
+ 
+</tr>
+
+</table><hr>
+<h2 align="center" style="font-style: oblique; font: bold; color: blue;"> BVRITH Intranet </h2>
+<br>
+<div align="center">
+
+<div  class="col-lg-4 col-md-12 col-xs-12" align="center"> 
+ 
+<!-- <h4><a href="adminLogin.html">Admin Login</a></h4> -->
+	<form name = "adminLogin" method="post"  action="als">
+		<table width="270" style="border: dashed; background: silver; " >
+			<tr height=25 bgcolor="">
+				<th colspan="4" align="center">Admin Web Access &nbsp;
+				</th>
+			</tr>
+   			<tr>
+   				 <td>User Name</td>
+    		  	 <td><input type="text" name="uname" ></td>
+  			</tr>
+  			<tr>
+    			<td>Password</td>
+        		  <td><input type="password" name="pwd" ></td>
+  			</tr>
+  			<tr align="center">
+    			<td align="center" colspan="2">
+    			  <input type="submit" name="ok" value="Submit"></td>
+           
+  			</tr>
+  
+		</table>
+	</form>
+</div>
+<div class="col-lg-4 col-md-12 col-xs-12" align="center">
+    	<form name = "teacherLogin" method="post"  action="tls">
+		<table width="270" style="border: dashed; background: silver; " >
+			<tr height=25 bgcolor="">
+				<th colspan="4" align="center">Faculty Web Access &nbsp;
+				</th>
+			</tr>
+   			<tr>
+   				 <td>User Name</td>
+    		  	 <td><input type="text" name="uname" ></td>
+  			</tr>
+  			<tr>
+    			<td>Password</td>
+        		  <td><input type="password" name="pwd" ></td>
+  			</tr>
+  			<tr align="center">
+    			<td align="center" colspan="2">
+    			  <input type="submit" name="ok" value="Submit"></td>
+           
+  			</tr>
+  
+		</table>
+	</form>
+
+
+</div>
+<div class="col-lg-4 col-md-12 col-xs-12" align="center">
+    <form name = "studentLogin" method="post"  action="sls">
+		<table width="250" style="border: dashed; " >
+			<tr height=25 bgcolor="">
+				<th colspan="4" align="center">Student Web Access &nbsp;</th>
+			</tr>
+   			<tr>
+    			<td>Roll Number</td>
+    		  	<td><input type="text" name="rollno" ></td>
+  			</tr>
+  			<tr>
+    			<td>Password</td>
+    		    <td><input type="password" name="pwd" ></td>
+  			</tr>
+  			<tr align="center">
+    			<td align="center" colspan="2">
+    			  <input type="submit" name="ok" value="Submit"></td>
+       		</tr>
+		</table>
+	</form>	
+</div>
+</div>
+</body>
+</html>
