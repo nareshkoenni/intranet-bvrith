@@ -30,7 +30,8 @@
 	<div class="container">
 		<div class="single-grid">
 <form action="http://intranet.bvrithyderabad.edu.in:9000/intranet/gescs?rollnumber=<%=rollnumber%>" name="postattendance" method="post" style="flex: content;">
-	<h3 align="center" class="bars">Graduate Exit Survey</h3><br>
+	<h3 align="center" class="bars">Graduate Exit Survey</h3>
+	<h6 align="center" style="font-weight: bold; color: maroon;" class="bars">Only for outgoing batch</h6><br>
 	
 	<table align='center' border="1"  width="60%">	
 		<tr>

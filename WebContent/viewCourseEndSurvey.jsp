@@ -83,13 +83,12 @@ app.controller('customersCtrl', function($scope, $http) {
 		<tr>
 			<td>Batch</td>
 			<td><select name="acyear" class="btn btn-default dropdown-toggle">
-				<option value="AY.2017-21">AY.2018-22</option>
-				<option value="AY.2017-21">AY.2017-21</option>
-				<option value="AY.2016-20">AY.2016-20</option>
-				<option value="AY.2015-19">AY.2015-19</option>
-				<option value="AY.2014-18">AY.2014-18</option>
-				<option value="AY.2013-17">AY.2013-17</option>
-				<option value="AY.2012-16">AY.2012-16</option>
+				<option value="AY.2019-23">2019-23</option>
+				<option value="AY.2018-22">2018-22</option>
+				<option value="AY.2017-21">2017-21</option>
+				<option value="AY.2016-20">2016-20</option>
+				<option value="AY.2015-19">2015-19</option>
+				<option value="AY.2014-18">2014-18</option>
 				
 				</select>
 			</td>		
@@ -124,6 +123,8 @@ app.controller('customersCtrl', function($scope, $http) {
 				<option value="select">Select</option>
 				<option value="section1">Section1</option>
 				<option value="section2">Section2</option>
+				<option value="section3">Section3</option>
+				
 				</select>
 			</td>		
 		</tr>

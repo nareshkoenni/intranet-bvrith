@@ -67,7 +67,7 @@ $(this).children('.sub-menu').slideUp(200);});}); // end ready
 					<li class="dropdown"><a class="dropdown-toggle" href="#">Feedback</a>
         	    		<ul class="sub-menu">
         	 				<li><a href="http://intranet.bvrithyderabad.edu.in:9000/intranet/student/courseEndFeedback.jsp?rollnumber=<%=rollnumber%>">CourseEndSurvey</a></li>
-							<li><a href="http://intranet.bvrithyderabad.edu.in:9000/intranet/student/tlfeedback.jsp?rollnumber=<%=rollnumber%>">T-LFeedback</a></li>
+						<!-- 	<li><a href="http://intranet.bvrithyderabad.edu.in:9000/intranet/student/tlfeedback.jsp?rollnumber=<%=rollnumber%>">T-LFeedback</a></li>  -->
 							<li><a href="http://intranet.bvrithyderabad.edu.in:9000/intranet/student/facilitiesFeedback.jsp?rollnumber=<%=rollnumber%>">FacilityFeedback</a></li>
 							
 						</ul>

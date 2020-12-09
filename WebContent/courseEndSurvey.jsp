@@ -63,10 +63,10 @@ app.controller('customersCtrl', function($scope, $http) {
 <form action="http://intranet.bvrithyderabad.edu.in:9000/intranet/courseEndSurvey1.jsp?uid=<%=uid%>" name="postattendance" method="post">
 	<h3 align="center" class="bars">Course End Survey</h3>
 	<table align="center">	
-		<tr>
+	<!-- 	<tr>
 			<td>Date</td>
 			<td><input type="text" id="datepicker" name="date" placeholder="mm/dd/yyyy" required="required"/></td>		
-		</tr>
+		</tr>  -->
 		<tr>
 			<td>Program</td>
 			<td><select name="program">
@@ -105,6 +105,8 @@ app.controller('customersCtrl', function($scope, $http) {
 				<option value="">Select</option>
 				<option value="section1">Section1</option>
 				<option value="section2">Section2</option>
+				<option value="section3">Section3</option>
+				
 				</select>
 			</td>		
 		</tr>

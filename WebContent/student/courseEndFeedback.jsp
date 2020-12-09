@@ -11,7 +11,7 @@
 
   <script>
   $(document).ready(function() {
-    $("#datepicker").datepicker();
+    $("#datepicker").datepicker().datepicker("setDate", new Date());
   });
   </script>
   
@@ -112,6 +112,8 @@ app.controller('customersCtrl', function($scope, $http) {
 				<option value="">Select</option>
 				<option value="section1">Section1</option>
 				<option value="section2">Section2</option>
+				<option value="section3">Section3</option>
+				
 				</select>
 			</td>		
 		</tr>
@@ -128,10 +130,11 @@ app.controller('customersCtrl', function($scope, $http) {
 			<td>Batch</td>
 			<td><select name="acyear" required="required" class="btn btn-default dropdown-toggle">
 				<option value="">Select</option>
-				<option value="AY.2015-19">AY.2015-19</option>
 				<option value="AY.2016-20">AY.2016-20</option>
 				<option value="AY.2017-21">AY.2017-21</option>
 				<option value="AY.2018-22">AY.2018-22</option>
+				<option value="AY.2019-23">AY.2019-23</option>
+				
 				
 				</select>
 			</td>		

@@ -255,7 +255,7 @@ public void jspInit(){
 </tr>
 <tr>
 <th>O.No</th>
-<th>Outcomes</th>
+<th>Course Outcomes</th>
 <th>Strongly Disagree</th>
 <th>Disagree</th>
 <th>Neutral</th>

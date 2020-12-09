@@ -108,12 +108,12 @@
 			</select></td>
 		</tr>
 	
-		-->
+		
 	
 	<tr>
 			<td>Date</td>
-			<td><input type="text" name="date" value="<%=request.getParameter("date")%>" /></td>		
-		</tr>
+			<td><input type="text" name="date" value=" " /></td>		
+		</tr> -->
 		<tr>
 			<td>Program</td>
 			<td><select name="program">
